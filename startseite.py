@@ -47,7 +47,7 @@ def start():
 
 start_seite = st.Page(start, title="Übersicht", icon=":material/dashboard:", default=True)
 ssp = st.Page("Spiele/schere_stein_papier_page.py", title="Schere Stein Papier", icon=":material/content_cut:")
-ttt = st.Page("Spiele/tictactoe.py", title="Tic Tac Toe", icon=":material/content_cut:")
+ttt = st.Page("Spiele/tictactoe.py", title="Tic Tac Toe", icon=":material/grid_3x3:")
 dicesimulator = st.Page("Rechenhilfen/dicesimulator_page.py", title="Würfelsimulator", icon=":material/casino:")
 caesar = st.Page("Rechenhilfen/caesar.py", title="Cäsar Verschlüsselung", icon=":material/lock:")
 taschenrechner = st.Page("Rechenhilfen/taschenrechner.py", title="Taschenrechner", icon=":material/calculate:")
